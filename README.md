@@ -28,7 +28,7 @@ To reproduce the results,
 please run the following commands.
 
 ```shell script
-CUDA_VISIBLE_DEVICES=0 python main_large.py dataset=arxiv  model=gcn  model.json='/home/ubuntu/LMC-Benchmark/json/gcn/arxiv/variant.json'
+CUDA_VISIBLE_DEVICES=0 python main_large.py dataset=arxiv  model=gcn  model.json='/home/ubuntu/LMC-Benchmark/json/gcn/arxiv/variant.json' > logs/arxiv.log
 ```
 
 ## Citation
